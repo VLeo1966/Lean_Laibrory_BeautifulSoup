@@ -1,4 +1,5 @@
 import requests
+
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
 
@@ -50,8 +51,7 @@ def word_game():
         if play_again != "да":
             print("Спасибо за игру!")
             break
-
-
-word_game()
+if __name__ == "__main__":
+    word_game()
 
 
