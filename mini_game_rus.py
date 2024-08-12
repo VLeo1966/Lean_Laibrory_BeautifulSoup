@@ -51,6 +51,7 @@ def word_game():
         if play_again != "да":
             print("Спасибо за игру!")
             break
+
 if __name__ == "__main__":
     word_game()
 
